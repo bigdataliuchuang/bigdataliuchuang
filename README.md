@@ -7,28 +7,14 @@
 </p>
 
 <p align="center">
+  <a href="#zh-cn">简体中文</a> | <a href="#english">English</a>
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/github/followers/bigdataliuchuang?style=for-the-badge&logo=github&label=Followers" alt="GitHub followers" />
   <img src="https://img.shields.io/badge/Focus-Big%20Data%20%26%20AI-0F766E?style=for-the-badge" alt="Focus Big Data and AI" />
   <img src="https://img.shields.io/badge/Status-Learning%20in%20Public-2563EB?style=for-the-badge" alt="Learning in public" />
 </p>
-
-## 关于我 | About Me
-
-- 正在系统学习 **Big Data**、**AI** 和工程化开发实践。Systematically learning **Big Data**, **AI**, and engineering best practices.
-- 当前重点放在 **Python**、**SQL**、**Spark**、**Flink** 和 **LLM applications**。Current focus: **Python**, **SQL**, **Spark**, **Flink**, and **LLM applications**.
-- 喜欢把零散知识整理成学习笔记、实验项目和可复用代码。I like turning scattered knowledge into notes, experiments, and reusable code.
-- 一边学习，一边公开记录成长过程。Building step by step and sharing the journey in public.
-
-## 学习方向 | Learning Focus
-
-- 数据基础与 SQL 练习。Data fundamentals and SQL practice.
-- 使用 Spark / Flink 进行分布式数据处理。Distributed processing with Spark / Flink.
-- 使用 Python 和 FastAPI 进行后端开发。Backend development with Python and FastAPI.
-- AI 应用工程与工作流设计。AI application engineering and workflow design.
-
-## 当前探索 | Currently Exploring
-
-`Python` `Java` `SQL` `Spark` `Flink` `FastAPI` `LLM` `System Design`
 
 ## GitHub 概览 | GitHub Snapshot
 
@@ -49,21 +35,82 @@
 ![Git](https://img.shields.io/badge/Git-222222?style=for-the-badge&logo=git&logoColor=F05032)
 ![Linux](https://img.shields.io/badge/Linux-111827?style=for-the-badge&logo=linux&logoColor=FCC624)
 
-## 精选内容 | Featured Work
+<a id="zh-cn"></a>
+
+## 简体中文
+
+### 关于我
+
+- 正在系统学习 **Big Data**、**AI** 和工程化开发实践。
+- 当前重点放在 **Python**、**SQL**、**Spark**、**Flink** 和 **LLM applications**。
+- 喜欢把零散知识整理成学习笔记、实验项目和可复用代码。
+- 一边学习，一边公开记录成长过程。
+
+### 学习方向
+
+- 数据基础与 SQL 练习
+- 使用 Spark / Flink 进行分布式数据处理
+- 使用 Python 和 FastAPI 进行后端开发
+- AI 应用工程与工作流设计
+
+### 当前探索
+
+`Python` `Java` `SQL` `Spark` `Flink` `FastAPI` `LLM` `System Design`
+
+### 精选内容
 
 - [sql_learn_bigdata](https://github.com/bigdataliuchuang/sql_learn_bigdata)  
-  大数据 SQL 基础与练习仓库，记录学习过程、实操练习和笔记。  
+  大数据 SQL 基础与练习仓库，记录学习过程、实操练习和笔记。
+
+- [GitHub Profile README](https://github.com/bigdataliuchuang/bigdataliuchuang)  
+  这个主页本身对应的源仓库，用来持续优化公开展示页面。
+
+- [More Repositories](https://github.com/bigdataliuchuang?tab=repositories)  
+  更多学习笔记和实验项目会在整理后陆续公开。
+
+### 联系方式
+
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/bigdataliuchuang)
+[![Repositories](https://img.shields.io/badge/Repositories-2563EB?style=for-the-badge&logo=github&logoColor=white)](https://github.com/bigdataliuchuang?tab=repositories)
+[![Stars](https://img.shields.io/badge/Stars-F59E0B?style=for-the-badge&logo=github&logoColor=white)](https://github.com/bigdataliuchuang?tab=stars)
+[![Contact via Issue](https://img.shields.io/badge/Contact%20via%20Issue-0F766E?style=for-the-badge&logo=github&logoColor=white)](https://github.com/bigdataliuchuang/bigdataliuchuang/issues)
+
+---
+
+<a id="english"></a>
+
+## English
+
+### About Me
+
+- Systematically learning **Big Data**, **AI**, and engineering best practices.
+- Current focus: **Python**, **SQL**, **Spark**, **Flink**, and **LLM applications**.
+- I like turning scattered knowledge into notes, experiments, and reusable code.
+- Building step by step and sharing the journey in public.
+
+### Learning Focus
+
+- Data fundamentals and SQL practice
+- Distributed processing with Spark / Flink
+- Backend development with Python and FastAPI
+- AI application engineering and workflow design
+
+### Currently Exploring
+
+`Python` `Java` `SQL` `Spark` `Flink` `FastAPI` `LLM` `System Design`
+
+### Featured Work
+
+- [sql_learn_bigdata](https://github.com/bigdataliuchuang/sql_learn_bigdata)  
   A SQL learning repo for big data fundamentals, hands-on exercises, and study notes.
 
 - [GitHub Profile README](https://github.com/bigdataliuchuang/bigdataliuchuang)  
-  这个主页本身对应的源仓库，用来持续优化公开展示页面。  
   The source repo behind this profile page, used to keep improving the public-facing homepage.
 
 - [More Repositories](https://github.com/bigdataliuchuang?tab=repositories)  
-  更多学习笔记和实验项目会在整理后陆续公开。  
   More learning notes and experimental projects will be published here as they are cleaned up and made public.
 
-## 联系方式 | Connect With Me
+### Connect With Me
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/bigdataliuchuang)
 [![Repositories](https://img.shields.io/badge/Repositories-2563EB?style=for-the-badge&logo=github&logoColor=white)](https://github.com/bigdataliuchuang?tab=repositories)
