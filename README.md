@@ -32,20 +32,23 @@
       把零散知识沉淀成可以复用的笔记、代码和项目。
     </td>
     <td width="66%" valign="top">
-      <h2>关于我</h2>
-      <ul>
-        <li>关注方向：大数据、AI 应用、Python / Java 后端开发</li>
-        <li>当前学习：Hadoop、Spark、Flink、FastAPI、LangChain</li>
-        <li>日常内容：学习笔记、实验代码、项目拆解与实践总结</li>
-        <li>长期目标：把学习过程整理成可复用、可展示的工程成果</li>
-      </ul>
-
-      <h3>当前重点</h3>
-      <ul>
-        <li>数据处理与 SQL 能力提升</li>
-        <li>AI 与业务场景结合的小项目</li>
-        <li>后端工程化、测试与部署流程</li>
-      </ul>
+      <strong>关于我</strong>
+      <br /><br />
+      • 关注方向：大数据、AI 应用、Python / Java 后端开发
+      <br />
+      • 当前学习：Hadoop、Spark、Flink、FastAPI、LangChain
+      <br />
+      • 日常内容：学习笔记、实验代码、项目拆解与实践总结
+      <br />
+      • 长期目标：把学习过程整理成可复用、可展示的工程成果
+      <br /><br />
+      <strong>当前重点</strong>
+      <br /><br />
+      • 数据处理与 SQL 能力提升
+      <br />
+      • AI 与业务场景结合的小项目
+      <br />
+      • 后端工程化、测试与部署流程
     </td>
   </tr>
 </table>
