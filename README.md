@@ -1,3 +1,7 @@
+# 👋 Hello, I'm bigdataliuchuang
+
+> Big Data / AI Applications / Backend Developer
+
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1f6feb,100:30cfd0&height=180&section=header&text=bigdataliuchuang&fontSize=38&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Big%20Data%20%7C%20AI%20Applications%20%7C%20Backend%20Development&descAlignY=58" alt="header" />
 </div>
