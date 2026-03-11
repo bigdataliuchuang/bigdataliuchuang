@@ -1,0 +1,67 @@
+version: "3.8"
+
+services:
+  jobmanager:
+    image: flink:1.18.1-scala_2.12-java17
+    container_name: flink-jobmanager
+    command: jobmanager
+    ports:
+      - "8081:8081"
+    environment:
+      - |
+        FLINK_PROPERTIES=
+        jobmanager.rpc.address: jobmanager
+    volumes:
+      - ./cases:/workspace/cases
+      - ./data:/workspace/data
+      - ./connectors:/opt/flink/usrlib
+
+  taskmanager:
+    image: flink:1.18.1-scala_2.12-java17
+    container_name: flink-taskmanager
+    command: taskmanager
+    depends_on:
+      - jobmanager
+    environment:
+      - |
+        FLINK_PROPERTIES=
+        jobmanager.rpc.address: jobmanager
+        taskmanager.numberOfTaskSlots: 4
+    volumes:
+      - ./cases:/workspace/cases
+      - ./data:/workspace/data
+      - ./connectors:/opt/flink/usrlib
+
+  sql-client:
+    image: flink:1.18.1-scala_2.12-java17
+    container_name: flink-sql-client
+    command: tail -f /dev/null
+    depends_on:
+      - jobmanager
+    volumes:
+      - ./cases:/workspace/cases
+      - ./data:/workspace/data
+      - ./connectors:/opt/flink/usrlib
+
+  zookeeper:
+    image: confluentinc/cp-zookeeper:7.5.3
+    container_name: flink-zookeeper
+    environment:
+      ZOOKEEPER_CLIENT_PORT: 2181
+      ZOOKEEPER_TICK_TIME: 2000
+
+  kafka:
+    image: confluentinc/cp-kafka:7.5.3
+    container_name: flink-kafka
+    depends_on:
+      - zookeeper
+    ports:
+      - "9092:9092"
+    environment:
+      KAFKA_BROKER_ID: 1
+      KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://kafka:29092,PLAINTEXT_HOST://localhost:9092
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: PLAINTEXT:PLAINTEXT,PLAINTEXT_HOST:PLAINTEXT
+      KAFKA_INTER_BROKER_LISTENER_NAME: PLAINTEXT
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+      KAFKA_AUTO_CREATE_TOPICS_ENABLE: "true"

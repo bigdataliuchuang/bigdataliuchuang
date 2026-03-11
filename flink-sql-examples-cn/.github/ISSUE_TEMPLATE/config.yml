@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Contact maintainer by email
+    url: mailto:lczxy1996@163.com
+    about: 如果问题不适合公开 Issue，可通过邮件联系维护者

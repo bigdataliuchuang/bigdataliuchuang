@@ -1,0 +1,29 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="640" fill="#071A1C"/>
+  <rect x="0" y="0" width="1280" height="640" fill="url(#bg)"/>
+  <circle cx="1090" cy="118" r="188" fill="#0F766E" fill-opacity="0.18"/>
+  <circle cx="1038" cy="524" r="220" fill="#2563EB" fill-opacity="0.15"/>
+  <circle cx="216" cy="510" r="168" fill="#14B8A6" fill-opacity="0.12"/>
+  <rect x="72" y="78" width="230" height="34" rx="17" fill="#0F766E"/>
+  <text x="97" y="101" fill="#E6FFFB" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">Chinese-First Practical Cases</text>
+  <text x="72" y="206" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="700">flink-sql-examples-cn</text>
+  <text x="72" y="264" fill="#C7D2FE" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="500">Practical Flink SQL examples for streaming metrics, dedup, TopN and interval join</text>
+  <text x="72" y="318" fill="#D1FAE5" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="500">Focused on business-oriented scenarios instead of syntax-only snippets</text>
+  <rect x="72" y="392" width="500" height="120" rx="24" fill="#0B2530" fill-opacity="0.92" stroke="#1D4ED8" stroke-opacity="0.45"/>
+  <text x="106" y="438" fill="#F8FAFC" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">Included in v1</text>
+  <text x="106" y="476" fill="#BFDBFE" font-family="Arial, Helvetica, sans-serif" font-size="22">Kafka / Filesystem • Watermark • GMV • UV</text>
+  <text x="106" y="508" fill="#BFDBFE" font-family="Arial, Helvetica, sans-serif" font-size="22">Conversion Rate • City TopN • Interval Join</text>
+  <rect x="865" y="174" width="312" height="286" rx="28" fill="#082F49" fill-opacity="0.84" stroke="#22C55E" stroke-opacity="0.28"/>
+  <text x="910" y="230" fill="#DCFCE7" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">Why it is useful</text>
+  <text x="910" y="278" fill="#F8FAFC" font-family="Arial, Helvetica, sans-serif" font-size="20">• Minimal runnable examples</text>
+  <text x="910" y="318" fill="#F8FAFC" font-family="Arial, Helvetica, sans-serif" font-size="20">• Interview-friendly patterns</text>
+  <text x="910" y="358" fill="#F8FAFC" font-family="Arial, Helvetica, sans-serif" font-size="20">• Chinese docs, fast onboarding</text>
+  <text x="910" y="398" fill="#F8FAFC" font-family="Arial, Helvetica, sans-serif" font-size="20">• Easy to expand into a standalone repo</text>
+  <defs>
+    <linearGradient id="bg" x1="94" y1="38" x2="1231" y2="601" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1120"/>
+      <stop offset="0.45" stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#082F49"/>
+    </linearGradient>
+  </defs>
+</svg>

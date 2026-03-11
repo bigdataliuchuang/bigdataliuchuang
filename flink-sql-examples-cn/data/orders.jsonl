@@ -1,0 +1,6 @@
+{"order_id":"o1001","user_id":"u001","amount":199.00,"event_type":"pay","ts":1710064800000}
+{"order_id":"o1002","user_id":"u002","amount":88.50,"event_type":"pay","ts":1710064812000}
+{"order_id":"o1003","user_id":"u001","amount":30.00,"event_type":"create","ts":1710064820000}
+{"order_id":"o1004","user_id":"u003","amount":260.00,"event_type":"pay","ts":1710064845000}
+{"order_id":"o1005","user_id":"u002","amount":15.80,"event_type":"pay","ts":1710064870000}
+{"order_id":"o1006","user_id":"u004","amount":520.00,"event_type":"pay","ts":1710064910000}

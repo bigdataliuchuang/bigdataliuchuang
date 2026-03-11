@@ -1,0 +1,59 @@
+name: Bug report
+description: 报告一个可复现的问题，优先提交最小复现信息
+title: "[Bug] "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        请尽量提供最小可复现信息。文档问题、步骤缺失、案例 SQL 明显错误这类问题优先处理。
+  - type: input
+    id: flink_version
+    attributes:
+      label: Flink version
+      description: 例如 1.18.1
+      placeholder: 1.18.1
+    validations:
+      required: true
+  - type: input
+    id: runtime
+    attributes:
+      label: Runtime
+      description: 运行方式，例如 docker compose、本地 SQL Client、集群环境
+      placeholder: docker compose
+    validations:
+      required: true
+  - type: textarea
+    id: sql_file
+    attributes:
+      label: SQL file or minimal SQL
+      description: 请贴出相关案例文件名，或最小复现 SQL
+      placeholder: cases/02_tumble_gmv.sql
+    validations:
+      required: true
+  - type: textarea
+    id: error_message
+    attributes:
+      label: Full error message
+      description: 请尽量粘贴完整报错，而不是只写“执行失败”
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Reproduction steps
+      description: 请按顺序描述你做了什么
+      placeholder: |
+        1. 执行 SOURCE '/workspace/cases/00_prepare_tables.sql';
+        2. 执行 SOURCE '/workspace/cases/02_tumble_gmv.sql';
+        3. 观察到报错
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result
+      description: 你原本期望看到什么
+    validations:
+      required: false

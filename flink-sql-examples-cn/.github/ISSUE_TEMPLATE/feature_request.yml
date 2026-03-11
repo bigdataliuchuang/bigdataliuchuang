@@ -1,0 +1,34 @@
+name: Feature request
+description: 提议补充一个有明确价值的新案例或新文档
+title: "[Feature] "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        优先欢迎高频业务案例、文档修正和运行说明增强。不建议提交范围过大的泛化学习诉求。
+  - type: textarea
+    id: scenario
+    attributes:
+      label: Scenario
+      description: 这个需求对应什么业务场景或学习场景
+      placeholder: 例如，想补一个 CDC 到下游明细表的最小案例
+    validations:
+      required: true
+  - type: textarea
+    id: value
+    attributes:
+      label: Why it is valuable
+      description: 为什么这个案例值得进入仓库
+      placeholder: 例如，这是实时数仓面试和业务中都很常见的场景
+    validations:
+      required: true
+  - type: textarea
+    id: expected_sql
+    attributes:
+      label: Expected SQL or direction
+      description: 你期望的大致 SQL 方向、输入表或产出结果
+      placeholder: 例如，订单流和维表做 lookup join，并输出用户等级维度的 GMV
+    validations:
+      required: true

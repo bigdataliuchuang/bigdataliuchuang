@@ -1,0 +1,3 @@
+{"pay_id":"p9001","order_id":"o2001","pay_amount":120.00,"pay_channel":"alipay","ts":1710068460000}
+{"pay_id":"p9002","order_id":"o2002","pay_amount":65.00,"pay_channel":"wechat","ts":1710069015000}
+{"pay_id":"p9003","order_id":"o2003","pay_amount":299.00,"pay_channel":"bank","ts":1710068580000}
