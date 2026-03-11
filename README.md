@@ -94,6 +94,10 @@
 
 - [sql_learn_bigdata](https://github.com/bigdataliuchuang/sql_learn_bigdata)  
   SQL 与大数据基础练习仓库，持续整理中。
+- [掘金专栏 / Juejin Posts](https://juejin.cn/user/3195520361284094)  
+  持续发布 Flink SQL、实时数仓与开源项目相关文章。
+- [CSDN 博客 / CSDN Blog](https://blog.csdn.net/weixin_44751637)  
+  持续发布大数据、实时计算与工程实践文章。
 - [GitHub Profile README](https://github.com/bigdataliuchuang/bigdataliuchuang)  
   当前 GitHub 主页的源仓库。
 - [More Repositories](https://github.com/bigdataliuchuang?tab=repositories)  
@@ -102,6 +106,8 @@
 ### 联系方式
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/bigdataliuchuang)
+[![Juejin](https://img.shields.io/badge/Juejin-1E80FF?style=for-the-badge&logo=juejin&logoColor=white)](https://juejin.cn/user/3195520361284094)
+[![CSDN](https://img.shields.io/badge/CSDN-FC5531?style=for-the-badge&logoColor=white)](https://blog.csdn.net/weixin_44751637)
 [![Repositories](https://img.shields.io/badge/Repositories-2563EB?style=for-the-badge&logo=github&logoColor=white)](https://github.com/bigdataliuchuang?tab=repositories)
 [![Email](https://img.shields.io/badge/Email-lczxy1996%40163.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:lczxy1996@163.com)
 [![Contact via Issue](https://img.shields.io/badge/Contact%20via%20Issue-0F766E?style=for-the-badge&logo=github&logoColor=white)](https://github.com/bigdataliuchuang/bigdataliuchuang/issues)
@@ -150,6 +156,10 @@
 
 - [sql_learn_bigdata](https://github.com/bigdataliuchuang/sql_learn_bigdata)  
   A repository for SQL and big-data fundamentals, with ongoing practice content.
+- [Juejin Posts](https://juejin.cn/user/3195520361284094)  
+  Ongoing articles about Flink SQL, real-time warehousing, and open-source work.
+- [CSDN Blog](https://blog.csdn.net/weixin_44751637)  
+  Ongoing posts about big data, stream processing, and engineering practice.
 - [GitHub Profile README](https://github.com/bigdataliuchuang/bigdataliuchuang)  
   The source repository behind this GitHub profile page.
 - [More Repositories](https://github.com/bigdataliuchuang?tab=repositories)  
@@ -158,6 +168,8 @@
 ### Contact
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/bigdataliuchuang)
+[![Juejin](https://img.shields.io/badge/Juejin-1E80FF?style=for-the-badge&logo=juejin&logoColor=white)](https://juejin.cn/user/3195520361284094)
+[![CSDN](https://img.shields.io/badge/CSDN-FC5531?style=for-the-badge&logoColor=white)](https://blog.csdn.net/weixin_44751637)
 [![Repositories](https://img.shields.io/badge/Repositories-2563EB?style=for-the-badge&logo=github&logoColor=white)](https://github.com/bigdataliuchuang?tab=repositories)
 [![Email](https://img.shields.io/badge/Email-lczxy1996%40163.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:lczxy1996@163.com)
 [![Contact via Issue](https://img.shields.io/badge/Contact%20via%20Issue-0F766E?style=for-the-badge&logo=github&logoColor=white)](https://github.com/bigdataliuchuang/bigdataliuchuang/issues)
