@@ -3,13 +3,13 @@
 <h1 align="center">刘闯 | Liu Chuang</h1>
 
 <p align="center">
-  6 年大数据开发工程师 · Big Data Engineer with 6 years of experience
+  8 年医疗大数据治理工程师 · Healthcare Data Governance Engineer with 8 years of experience
 </p>
 
 <p align="center">
-  专注实时计算、离线数仓、数据平台与医疗数据场景
+  专注医疗数据治理、数仓建模、实时计算与大模型在医疗场景的落地
   <br />
-  Focused on real-time data pipelines, offline warehousing, data platforms, and healthcare analytics
+  Focused on healthcare data governance, warehouse modeling, real-time processing, and LLM applications in healthcare
 </p>
 
 <p align="center">
@@ -17,8 +17,8 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Experience-6%20Years-0F766E?style=for-the-badge" alt="6 years experience" />
-  <img src="https://img.shields.io/badge/Role-Big%20Data%20Engineer-2563EB?style=for-the-badge" alt="Big Data Engineer" />
+  <img src="https://img.shields.io/badge/Experience-8%20Years-0F766E?style=for-the-badge" alt="8 years experience" />
+  <img src="https://img.shields.io/badge/Role-Healthcare%20Data%20Engineer-2563EB?style=for-the-badge" alt="Healthcare Data Engineer" />
   <img src="https://img.shields.io/badge/Domain-Healthcare%20%26%20Data%20Platform-0B5CAD?style=for-the-badge" alt="Healthcare and Data Platform" />
   <img src="https://img.shields.io/github/followers/bigdataliuchuang?style=for-the-badge&logo=github&label=Followers" alt="GitHub followers" />
 </p>
@@ -40,16 +40,21 @@
 ![Hive](https://img.shields.io/badge/Hive-FDEE21?style=for-the-badge&logo=apachehive&logoColor=black)
 ![Spark](https://img.shields.io/badge/Apache%20Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
 ![Flink](https://img.shields.io/badge/Apache%20Flink-E6526F?style=for-the-badge&logo=apacheflink&logoColor=white)
+![FlinkCDC](https://img.shields.io/badge/FlinkCDC-E6526F?style=for-the-badge)
 ![Kafka](https://img.shields.io/badge/Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)
 ![Doris](https://img.shields.io/badge/Doris-1D4ED8?style=for-the-badge)
+![StarRocks](https://img.shields.io/badge/StarRocks-0F766E?style=for-the-badge)
 ![Paimon](https://img.shields.io/badge/Paimon-0F766E?style=for-the-badge)
 ![Hadoop](https://img.shields.io/badge/Hadoop-66CCFF?style=for-the-badge&logo=apachehadoop&logoColor=black)
 ![HDFS](https://img.shields.io/badge/HDFS-4B5563?style=for-the-badge)
+![Sqoop](https://img.shields.io/badge/Sqoop-4B5563?style=for-the-badge)
 ![DolphinScheduler](https://img.shields.io/badge/DolphinScheduler-4F46E5?style=for-the-badge)
 ![DataX](https://img.shields.io/badge/DataX-2563EB?style=for-the-badge)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 ![HBase](https://img.shields.io/badge/HBase-CB2026?style=for-the-badge)
 ![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=for-the-badge&logo=elasticsearch&logoColor=white)
+![Atlas](https://img.shields.io/badge/Atlas-0F766E?style=for-the-badge)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-111827?style=for-the-badge&logo=linux&logoColor=FCC624)
 
 <a id="zh-cn"></a>
@@ -58,37 +63,45 @@
 
 ### 职业摘要
 
-- 6 年大数据开发经验，覆盖离线数仓、实时计算、平台建设、组件二开、组件运维和数据服务轻量化方案。
-- 长期参与医疗、国家癌症数据治理、真实世界研究（RWS）和智慧旅游等数据密集型项目。
-- 擅长从 0-1 搭建数据平台，打通数据接入、治理、调度、数仓建模、查询分析与交付链路。
+- 8 年医疗大数据治理实战，精通 SQL/HiveSQL 复杂查询与调优，长期专注医疗行业数据治理与质量保障。
+- 主导过国家级肿瘤大数据治理项目（覆盖全国 `1000+` 家医院、`5` 大主要癌种），年贡献公司收益约 `4000 万元`。
+- 作为技术核心（双人团队）连续两年负责国家卫健委年度报告及 `5` 个药企数据交付项目。
+- 熟悉 Oracle、SQL Server、MySQL、Doris、StarRocks、Impala 等多源异构数据库与 OLAP 引擎。
+- 具备基于 Atlas 元数据血缘、Kimball 维度建模、ODS/DWD/DWS/ADS 四层数仓从 0-1 建设经验。
+- 独立探索大模型（DeepSeek/千问 LLM）在医疗数据治理场景的落地，具备 Prompt Engineering 一线实践经验。
 - 本科，持有 `JAVA 软件开发（高级）`、`高级数据库管理工程师` 相关资质。
 
 ### 核心亮点
 
-- 主导医院项目，构建 `Flink + Doris + Paimon` 实时与离线混合架构，支持分钟级处理和复杂医疗报表秒级生成。
-- 日均处理 `200 万+` 医疗事件，Kafka 分区从 `32` 扩展到 `128`，消息积压率降至 `0.1%`。
-- 通过优化 ETL 和数据链路，将数据处理速度提升 `25%`，数据准确性达到 `99.95%`。
-- 设计 Flink 弹性扩缩容策略，推动计算资源成本节省 `40%`。
+- 主导医视界医疗大数据平台从 0 到 1 建设，落地企业级数据治理与 `4` 层数仓体系，同步探索大模型在医疗病历文本结构化场景的应用。
+- 构建 `Flink + Doris + Paimon` 实时与离线混合架构，支持分钟级处理和复杂医疗报表秒级生成。
+- 主导国家癌症大数据治理项目全流程，年贡献公司收益约 `4000 万元`，连续两年获评优秀员工。
+- 主导 Oracle 到 CDH 新平台全量数据迁移与 ETL 重构，保障业务切换期间数据零丢失、服务零中断。
+- 独立开发基于 LLM 的医疗文本结构化提取链路，通过 Few-shot 样本库与字段级 confidence 二次校验有效缓解大模型幻觉问题。
 
 ### 工作经历
 
-- **北京医视界有限公司** ｜大数据开发工程师 ｜`2024.11 - 至今`
-  - 主导医院数据项目，设计 `ODS / DWD / DWS / ADS` 四层数仓模型和混合数据架构。
-- **北京大麦毛发医疗集团** ｜大数据开发工程师 ｜`2023.12 - 2024.10`
-  - 主导数据迁移与大数据集群建设，平滑完成 Oracle 到新平台迁移并推动系统降本。
-- **北京壹永科技有限公司** ｜大数据开发工程师 ｜`2021.07 - 2023.12`
-  - 参与国家癌症数据治理、RWS 等医疗数据项目，负责治理、清洗、建模和交付。
-- **河北胜清科技有限公司** ｜大数据开发工程师 ｜`2018.04 - 2021.07`
-  - 参与智慧旅游平台建设，负责数据建模、离线处理和业务数据落库。
+- **北京医视界有限公司** ｜医疗大数据工程师 ｜`2024.11 - 至今`
+  - 主导医疗大数据平台从 0 到 1 建设，落地企业级数据治理与 `4` 层数仓体系；同步探索大模型在医疗病历文本结构化场景的应用。
+- **北京大麦毛发医疗集团** ｜医疗大数据工程师 ｜`2023.12 - 2024.10`
+  - 主导集团级大数据平台搭建与历史业务库迁移项目，覆盖 ETL 重构、实时数据链路建设与集群运维。
+- **北京壹永科技有限公司** ｜医疗大数据工程师 ｜`2021.07 - 2023.12`
+  - 作为技术核心（双人团队），主导国家癌症大数据治理及国家卫健委年度报告项目全流程，年收益贡献约 `4000 万元`；连续两年获评优秀员工。
+- **河北胜清科技有限公司** ｜大数据工程师 ｜`2018.04 - 2021.07`
+  - 参与智慧旅游大数据平台建设，负责系统架构设计、数据库建模及离线数据处理全流程。
 
 ### 代表项目
 
-- **医视界大数据集群建设**
-  - 基于 `Flink`、`Doris`、`Paimon`、`Kafka`、`Hive` 构建医院级实时 + 离线混合平台，支撑临床决策、患者画像和医疗资源优化。
-- **大麦医疗大数据集群建设**
-  - 搭建并维护 `CDH`、`DolphinScheduler`、`DataX`、`Flink`、`Doris` 集群，支撑 `1TB+ / 日` 的异构数据迁移和秒级关键指标更新。
+- **医视界医疗大数据平台建设**
+  - 基于 `Flink`、`Doris`、`Paimon`、`Kafka`、`Hive` 构建医院级实时 + 离线混合平台，设计 `ODS / DWD / DWS / ADS` 四层数仓体系，支撑临床决策、患者画像和医疗资源优化；同步探索大模型在医疗病历文本结构化场景的应用。
+- **大麦医疗数据平台迁移**
+  - 主导集团级大数据平台搭建与历史业务库迁移，覆盖 ETL 重构、实时数据链路建设与集群运维，支撑 `1TB+ / 日` 的异构数据迁移和秒级关键指标更新。
 - **国家癌症数据治理 / RWS**
-  - 使用 `Spark`、`Hive`、`Impala`、`PySpark` 完成国家级医疗数据治理、清洗、汇总和真实世界研究数据交付。
+  - 作为技术核心（双人团队），使用 `Spark`、`Hive`、`Impala`、`PySpark` 完成国家级医疗数据治理、清洗、汇总和真实世界研究数据交付，年贡献公司收益约 `4000 万元`。
+- **农村电子商务数据分析平台（2期）**
+  - 基于 `CDH` 集群搭建 `Hadoop` + `Hive` + `Spark` + `HBase` + `Kafka` 大数据平台，设计离线数仓分层架构（`ODS/DWD/DWS/ADS`），完成 `1000 万+` 用户行为数据入仓，支撑 `50+` 张报表及 `10+` 核心指标体系。
+- **医废追溯管理平台**
+  - 基于 `Spring Boot` + `MyBatis` + `PostgreSQL` 构建医废全流程追溯管理系统，使用 `Vue 2.x` + `Element UI` 开发前端页面，支持医废从收集到处置的全生命周期追溯。
 
 ### 公开内容
 
@@ -120,37 +133,45 @@
 
 ### Professional Summary
 
-- Big Data Engineer with 6 years of experience across offline warehousing, real-time processing, data platform development, component customization, operations, and lightweight data service solutions.
-- Worked on data-intensive projects in healthcare, national cancer data governance, real-world study platforms, and smart tourism analytics.
-- Strong at building data platforms end to end, covering ingestion, governance, orchestration, warehouse modeling, analytics, and delivery.
+- 8 years of healthcare data governance expertise, proficient in complex SQL/HiveSQL query optimization, with a long-term focus on healthcare data governance and quality assurance.
+- Led a national-level tumor data governance project covering `1000+` hospitals and `5` major cancer types, contributing approximately `40M RMB` in annual company revenue.
+- As a core technical member (2-person team), responsible for the National Health Commission annual reports and `5` pharmaceutical data delivery projects for two consecutive years.
+- Proficient in multi-source heterogeneous databases including Oracle, SQL Server, MySQL, Doris, StarRocks, and Impala OLAP engines.
+- Experience in Atlas metadata lineage, Kimball dimensional modeling, and building `ODS/DWD/DWS/ADS` four-layer data warehouse from scratch.
+- Independently exploring LLM (DeepSeek/Qianwen) applications in healthcare data governance with hands-on Prompt Engineering experience.
 - Bachelor's degree. Certifications include `Advanced Java Software Development` and `Senior Database Administration Engineer`.
 
 ### Core Highlights
 
-- Led a hospital data platform and built a `Flink + Doris + Paimon` hybrid architecture for minute-level processing and second-level medical reporting.
-- Processed `2M+` medical events per day, expanded Kafka partitions from `32` to `128`, and reduced backlog rate to `0.1%`.
-- Improved ETL throughput by `25%` while achieving `99.95%` data accuracy.
-- Designed elastic Flink scaling strategies and reduced compute cost by `40%`.
+- Led the Yishijie medical big data platform from 0 to 1, implementing enterprise-level data governance and a `4`-layer data warehouse architecture; concurrently exploring LLM applications in medical record text structuring.
+- Built a `Flink + Doris + Paimon` hybrid real-time/offline architecture supporting minute-level processing and second-level complex medical report generation.
+- Led the national cancer data governance project end-to-end, contributing approximately `40M RMB` in annual revenue; recognized as outstanding employee for two consecutive years.
+- Led Oracle to CDH full data migration and ETL reconstruction, ensuring zero data loss and zero service interruption during business switching.
+- Independently developed an LLM-based medical text structuring pipeline, using Few-shot sample libraries and field-level confidence re-validation to effectively mitigate LLM hallucination issues.
 
 ### Experience
 
-- **Beijing Yishijie Co., Ltd.** ｜Big Data Engineer ｜`2024.11 - Present`
-  - Led hospital data initiatives with `ODS / DWD / DWS / ADS` warehouse modeling and hybrid real-time/offline architecture.
-- **Beijing Damai Hair Medical Group** ｜Big Data Engineer ｜`2023.12 - 2024.10`
-  - Led data migration and big-data cluster construction, completing a smooth Oracle migration to a new platform with lower cost.
-- **Beijing Yiyong Technology Co., Ltd.** ｜Big Data Engineer ｜`2021.07 - 2023.12`
-  - Worked on national cancer data governance and real-world study projects, covering cleansing, modeling, and data delivery.
+- **Beijing Yishijie Co., Ltd.** ｜Healthcare Data Engineer ｜`2024.11 - Present`
+  - Led the medical big data platform from 0 to 1, implementing enterprise-level data governance and a `4`-layer data warehouse architecture; concurrently exploring LLM applications in medical record text structuring.
+- **Beijing Damai Hair Medical Group** ｜Healthcare Data Engineer ｜`2023.12 - 2024.10`
+  - Led group-level big data platform construction and legacy database migration, covering ETL reconstruction, real-time data pipeline construction, and cluster operations.
+- **Beijing Yiyong Technology Co., Ltd.** ｜Healthcare Data Engineer ｜`2021.07 - 2023.12`
+  - As a core technical member (2-person team), led national cancer data governance and National Health Commission annual report projects end-to-end, contributing approximately `40M RMB` in annual revenue; recognized as outstanding employee for two consecutive years.
 - **Hebei Shengqing Technology Co., Ltd.** ｜Big Data Engineer ｜`2018.04 - 2021.07`
-  - Worked on a smart tourism analytics platform, focusing on data modeling, offline processing, and business data delivery.
+  - Participated in smart tourism big data platform construction, responsible for system architecture design, database modeling, and offline data processing end-to-end.
 
 ### Selected Projects
 
-- **Yishijie Data Platform**
-  - Built a hospital-oriented hybrid platform with `Flink`, `Doris`, `Paimon`, `Kafka`, and `Hive` for clinical decision support, patient profiling, and resource optimization.
-- **Damai Medical Data Platform**
-  - Maintained `CDH`, `DolphinScheduler`, `DataX`, `Flink`, and `Doris` clusters, supporting `1TB+ / day` heterogeneous data migration and second-level KPI refresh.
+- **Yishijie Medical Big Data Platform**
+  - Built a hospital-oriented hybrid platform with `Flink`, `Doris`, `Paimon`, `Kafka`, and `Hive`, designing a `ODS / DWD / DWS / ADS` four-layer data warehouse architecture for clinical decision support, patient profiling, and resource optimization; concurrently exploring LLM applications in medical record text structuring.
+- **Damai Medical Data Platform Migration**
+  - Led group-level big data platform construction and legacy database migration, covering ETL reconstruction, real-time data pipeline construction, and cluster operations, supporting `1TB+ / day` heterogeneous data migration and second-level KPI refresh.
 - **National Cancer Governance / RWS**
-  - Used `Spark`, `Hive`, `Impala`, and `PySpark` to deliver governance, cleansing, aggregation, and reporting for national-scale medical data projects.
+  - As a core technical member (2-person team), used `Spark`, `Hive`, `Impala`, and `PySpark` to deliver governance, cleansing, aggregation, and reporting for national-scale medical data projects, contributing approximately `40M RMB` in annual revenue.
+- **Rural E-Commerce Data Analysis Platform (Phase 2)**
+  - Built a `Hadoop` + `Hive` + `Spark` + `HBase` + `Kafka` big data platform on `CDH` cluster, designed offline data warehouse layered architecture (`ODS/DWD/DWS/ADS`), completed warehousing of `10M+` user behavior data, supporting `50+` reports and `10+` core KPI systems.
+- **Medical Waste Traceability Management Platform**
+  - Built a full-process medical waste traceability management system based on `Spring Boot` + `MyBatis` + `PostgreSQL`, with `Vue 2.x` + `Element UI` frontend, supporting full lifecycle traceability from collection to disposal.
 
 ### Public Repositories
 
@@ -177,7 +198,7 @@
 ---
 
 <p align="center">
-  这是一个持续更新的公开主页，已整合职业经历、技术栈和项目摘要。
+  这是一个持续更新的公开主页，已整合医疗大数据治理职业经历、技术栈和项目摘要。
   <br />
-  This is a living public profile that now combines career experience, technical strengths, and project highlights.
+  This is a living public profile that now combines healthcare data governance experience, technical strengths, and project highlights.
 </p>
