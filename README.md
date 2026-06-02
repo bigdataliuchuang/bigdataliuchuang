@@ -37,6 +37,7 @@
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Shell](https://img.shields.io/badge/Shell-121011?style=for-the-badge&logo=gnubash&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Hive](https://img.shields.io/badge/Hive-FDEE21?style=for-the-badge&logo=apachehive&logoColor=black)
 ![Spark](https://img.shields.io/badge/Apache%20Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
 ![Flink](https://img.shields.io/badge/Apache%20Flink-E6526F?style=for-the-badge&logo=apacheflink&logoColor=white)
@@ -45,6 +46,7 @@
 ![Doris](https://img.shields.io/badge/Doris-1D4ED8?style=for-the-badge)
 ![StarRocks](https://img.shields.io/badge/StarRocks-0F766E?style=for-the-badge)
 ![Paimon](https://img.shields.io/badge/Paimon-0F766E?style=for-the-badge)
+![Kudu](https://img.shields.io/badge/Kudu-4B5563?style=for-the-badge)
 ![Hadoop](https://img.shields.io/badge/Hadoop-66CCFF?style=for-the-badge&logo=apachehadoop&logoColor=black)
 ![HDFS](https://img.shields.io/badge/HDFS-4B5563?style=for-the-badge)
 ![Sqoop](https://img.shields.io/badge/Sqoop-4B5563?style=for-the-badge)
@@ -52,9 +54,15 @@
 ![DataX](https://img.shields.io/badge/DataX-2563EB?style=for-the-badge)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 ![HBase](https://img.shields.io/badge/HBase-CB2026?style=for-the-badge)
-![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=for-the-badge&logo=elasticsearch&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![ZooKeeper](https://img.shields.io/badge/ZooKeeper-4B5563?style=for-the-badge)
 ![Atlas](https://img.shields.io/badge/Atlas-0F766E?style=for-the-badge)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Vue](https://img.shields.io/badge/Vue-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white)
+![WebSocket](https://img.shields.io/badge/WebSocket-111827?style=for-the-badge)
+![Celery](https://img.shields.io/badge/Celery-37814A?style=for-the-badge&logo=celery&logoColor=white)
+![FunASR](https://img.shields.io/badge/FunASR-2563EB?style=for-the-badge)
+![DashScope](https://img.shields.io/badge/DashScope-FF6A00?style=for-the-badge)
 ![Linux](https://img.shields.io/badge/Linux-111827?style=for-the-badge&logo=linux&logoColor=FCC624)
 
 <a id="zh-cn"></a>
@@ -77,7 +85,7 @@
 - 构建 `Flink + Doris + Paimon` 实时与离线混合架构，支持分钟级处理和复杂医疗报表秒级生成。
 - 主导国家癌症大数据治理项目全流程，年贡献公司收益约 `4000 万元`，连续两年获评优秀员工。
 - 主导 Oracle 到 CDH 新平台全量数据迁移与 ETL 重构，保障业务切换期间数据零丢失、服务零中断。
-- 独立开发基于 LLM 的医疗文本结构化提取链路，通过 Few-shot 样本库与字段级 confidence 二次校验有效缓解大模型幻觉问题。
+- 独立设计医疗语音病历智能填写链路，通过 ASR、Prompt 分组提取、Few-shot 样本库与字段级 confidence 审核缓解大模型幻觉问题。
 
 ### 工作经历
 
@@ -92,16 +100,18 @@
 
 ### 代表项目
 
-- **医视界医疗大数据平台建设**
-  - 基于 `Flink`、`Doris`、`Paimon`、`Kafka`、`Hive` 构建医院级实时 + 离线混合平台，设计 `ODS / DWD / DWS / ADS` 四层数仓体系，支撑临床决策、患者画像和医疗资源优化；同步探索大模型在医疗病历文本结构化场景的应用。
-- **大麦医疗数据平台迁移**
-  - 主导集团级大数据平台搭建与历史业务库迁移，覆盖 ETL 重构、实时数据链路建设与集群运维，支撑 `1TB+ / 日` 的异构数据迁移和秒级关键指标更新。
-- **国家癌症数据治理 / RWS**
-  - 作为技术核心（双人团队），使用 `Spark`、`Hive`、`Impala`、`PySpark` 完成国家级医疗数据治理、清洗、汇总和真实世界研究数据交付，年贡献公司收益约 `4000 万元`。
-- **农村电子商务数据分析平台（2期）**
-  - 基于 `CDH` 集群搭建 `Hadoop` + `Hive` + `Spark` + `HBase` + `Kafka` 大数据平台，通过动态资源分配与数据压缩策略将日志 ETL 效率提升 `40%`；设计离线数仓 `ODS/DWD/DWS/ADS` 四层架构，构建用户画像标签体系，日均处理 `1000 万+` 条用户行为数据，支撑 `50+` 张农业电商运营报表；基于 `HBase` 构建农产品溯源查询服务，通过 `Kafka` + `Flink` 实时流处理实现物流轨迹监控与异常预警。
-- **医废追溯管理平台**
-  - 基于 `Spring Boot` + `MyBatis` + `PostgreSQL` 构建医废全流程追溯管理系统，使用 `Vue 2.x` + `Element UI` 开发前端页面，支持医废从收集到处置的全生命周期追溯。
+- **国家癌症大数据治理平台** ｜`2021.09 - 2022.06`
+  - 覆盖全国 `1000+` 家医院和 `5` 大主要癌种，主导多家医院异构上报数据统一治理；通过 `Kafka` 接入、`Spark + Hive SQL` 清洗和 `Impala` 查询加速，将核心癌种库查询响应时间缩短约 `50%`。
+- **RWS 国家卫健委年度报告项目** ｜`2022.07 - 2023.08`
+  - 作为技术核心（双人团队）负责国家卫健委年度报告及 `5` 个药企数据交付项目，将医学统计规则工程化为可执行数据流程，使用 `PySpark`、`Impala`、`Hive` 处理多年随访数据，年贡献公司收益约 `4000 万元`。
+- **大麦医疗大数据平台建设与迁移** ｜`2023.12 - 2024.10`
+  - 主导业务库 `Oracle -> CDH` 平滑迁移与 ETL 逻辑重构，处理速度提升约 `25%`；搭建并维护 `CDH`、`DolphinScheduler`、`DataX`、`Flink`、`Doris` 集群，基于 `FlinkCDC + HBase + Kafka + Doris` 将实时数据更新延迟从分钟级降至秒级。
+- **医视界医疗大数据治理与数仓建设** ｜`2024.11 - 至今`
+  - 基于 `Atlas` 构建医疗数据血缘追溯体系，覆盖电子病历、影像、检验报告等 `20+` 类医疗数据；设计 `ODS / DWD / DWS / ADS` 四层数仓，日均处理 `200 万+` 条医疗事件，并参与构建 `Flink + Doris + Paimon` 湖仓一体架构。
+- **医疗语音病历智能填写系统** ｜`2024.11 - 至今`
+  - 独立设计 `ASR -> 对话预处理 -> 对话合并 -> 字段提取 -> Audit 审核` 的 LLM 处理链路，基于 `FunASR`、阿里云 `DashScope`、`DeepSeek`、千问、`FastAPI`、`Vue`、`WebSocket`、`Celery` 完成演示测试验证。
+- **智慧旅游大数据平台** ｜`2018.04 - 2020.07`
+  - 参与项目前期分析与整体架构设计，负责离线数据处理、数据库建模、依赖关系和字段规范设计；使用 `Kafka`、`Hive`、`Impala`、`PySpark`、`HDFS`、`Kudu`、`MongoDB`、`MySQL` 支撑用户画像与营销分层。
 
 ### 公开内容
 
@@ -147,7 +157,7 @@
 - Built a `Flink + Doris + Paimon` hybrid real-time/offline architecture supporting minute-level processing and second-level complex medical report generation.
 - Led the national cancer data governance project end-to-end, contributing approximately `40M RMB` in annual revenue; recognized as outstanding employee for two consecutive years.
 - Led Oracle to CDH full data migration and ETL reconstruction, ensuring zero data loss and zero service interruption during business switching.
-- Independently developed an LLM-based medical text structuring pipeline, using Few-shot sample libraries and field-level confidence re-validation to effectively mitigate LLM hallucination issues.
+- Independently designed a medical voice-record structuring workflow with ASR, grouped prompt extraction, Few-shot examples, and field-level confidence auditing to mitigate LLM hallucinations.
 
 ### Experience
 
@@ -162,16 +172,18 @@
 
 ### Selected Projects
 
-- **Yishijie Medical Big Data Platform**
-  - Built a hospital-oriented hybrid platform with `Flink`, `Doris`, `Paimon`, `Kafka`, and `Hive`, designing a `ODS / DWD / DWS / ADS` four-layer data warehouse architecture for clinical decision support, patient profiling, and resource optimization; concurrently exploring LLM applications in medical record text structuring.
-- **Damai Medical Data Platform Migration**
-  - Led group-level big data platform construction and legacy database migration, covering ETL reconstruction, real-time data pipeline construction, and cluster operations, supporting `1TB+ / day` heterogeneous data migration and second-level KPI refresh.
-- **National Cancer Governance / RWS**
-  - As a core technical member (2-person team), used `Spark`, `Hive`, `Impala`, and `PySpark` to deliver governance, cleansing, aggregation, and reporting for national-scale medical data projects, contributing approximately `40M RMB` in annual revenue.
-- **Rural E-Commerce Data Analysis Platform (Phase 2)**
-  - Built a `Hadoop` + `Hive` + `Spark` + `HBase` + `Kafka` big data platform on `CDH` cluster, improved ETL efficiency by `40%` through dynamic resource allocation and data compression; designed offline data warehouse `ODS/DWD/DWS/ADS` four-layer architecture, built user profiling tag system, processed `10M+` daily user behavior data, supporting `50+` agricultural e-commerce operation reports; built agricultural product traceability query service on `HBase`, achieved logistics track monitoring and anomaly alerting via `Kafka` + `Flink` real-time stream processing.
-- **Medical Waste Traceability Management Platform**
-  - Built a full-process medical waste traceability management system based on `Spring Boot` + `MyBatis` + `PostgreSQL`, with `Vue 2.x` + `Element UI` frontend, supporting full lifecycle traceability from collection to disposal.
+- **National Cancer Big Data Governance Platform** ｜`2021.09 - 2022.06`
+  - Covered `1000+` hospitals and `5` major cancer types, leading unified governance for heterogeneous hospital submissions; used `Kafka`, `Spark + Hive SQL`, and `Impala` to standardize data and reduce core cancer database query latency by approximately `50%`.
+- **RWS National Health Commission Annual Report Project** ｜`2022.07 - 2023.08`
+  - As a core technical member of a two-person team, delivered National Health Commission annual reports and `5` pharmaceutical data projects, engineering medical statistics rules into executable data workflows with `PySpark`, `Impala`, and `Hive`, contributing approximately `40M RMB` in annual revenue.
+- **Damai Medical Big Data Platform Construction and Migration** ｜`2023.12 - 2024.10`
+  - Led a smooth `Oracle -> CDH` migration and ETL reconstruction, improving processing speed by about `25%`; built and maintained `CDH`, `DolphinScheduler`, `DataX`, `Flink`, and `Doris` clusters, reducing real-time update latency from minutes to seconds with `FlinkCDC + HBase + Kafka + Doris`.
+- **Yishijie Medical Data Governance and Warehouse Platform** ｜`2024.11 - Present`
+  - Built Atlas-based medical data lineage across `20+` data categories, including EMR, imaging, and lab reports; designed the `ODS / DWD / DWS / ADS` warehouse model, processed `2M+` daily medical events, and contributed to a `Flink + Doris + Paimon` lakehouse architecture.
+- **Medical Voice Record Intelligent Filling System** ｜`2024.11 - Present`
+  - Designed an LLM workflow covering `ASR -> dialogue preprocessing -> dialogue merging -> field extraction -> Audit review`, using `FunASR`, Alibaba Cloud `DashScope`, `DeepSeek`, Qianwen, `FastAPI`, `Vue`, `WebSocket`, and `Celery` to complete demo validation.
+- **Smart Tourism Big Data Platform** ｜`2018.04 - 2020.07`
+  - Participated in early analysis and overall architecture design, responsible for offline processing, database modeling, dependency design, and field standards; used `Kafka`, `Hive`, `Impala`, `PySpark`, `HDFS`, `Kudu`, `MongoDB`, and `MySQL` to support user profiling and marketing segmentation.
 
 ### Public Repositories
 
