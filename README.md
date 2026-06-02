@@ -99,7 +99,7 @@
 - **国家癌症数据治理 / RWS**
   - 作为技术核心（双人团队），使用 `Spark`、`Hive`、`Impala`、`PySpark` 完成国家级医疗数据治理、清洗、汇总和真实世界研究数据交付，年贡献公司收益约 `4000 万元`。
 - **农村电子商务数据分析平台（2期）**
-  - 基于 `CDH` 集群搭建 `Hadoop` + `Hive` + `Spark` + `HBase` + `Kafka` 大数据平台，设计离线数仓分层架构（`ODS/DWD/DWS/ADS`），完成 `1000 万+` 用户行为数据入仓，支撑 `50+` 张报表及 `10+` 核心指标体系。
+  - 基于 `CDH` 集群搭建 `Hadoop` + `Hive` + `Spark` + `HBase` + `Kafka` 大数据平台，通过动态资源分配与数据压缩策略将日志 ETL 效率提升 `40%`；设计离线数仓 `ODS/DWD/DWS/ADS` 四层架构，构建用户画像标签体系，日均处理 `1000 万+` 条用户行为数据，支撑 `50+` 张农业电商运营报表；基于 `HBase` 构建农产品溯源查询服务，通过 `Kafka` + `Flink` 实时流处理实现物流轨迹监控与异常预警。
 - **医废追溯管理平台**
   - 基于 `Spring Boot` + `MyBatis` + `PostgreSQL` 构建医废全流程追溯管理系统，使用 `Vue 2.x` + `Element UI` 开发前端页面，支持医废从收集到处置的全生命周期追溯。
 
@@ -169,7 +169,7 @@
 - **National Cancer Governance / RWS**
   - As a core technical member (2-person team), used `Spark`, `Hive`, `Impala`, and `PySpark` to deliver governance, cleansing, aggregation, and reporting for national-scale medical data projects, contributing approximately `40M RMB` in annual revenue.
 - **Rural E-Commerce Data Analysis Platform (Phase 2)**
-  - Built a `Hadoop` + `Hive` + `Spark` + `HBase` + `Kafka` big data platform on `CDH` cluster, designed offline data warehouse layered architecture (`ODS/DWD/DWS/ADS`), completed warehousing of `10M+` user behavior data, supporting `50+` reports and `10+` core KPI systems.
+  - Built a `Hadoop` + `Hive` + `Spark` + `HBase` + `Kafka` big data platform on `CDH` cluster, improved ETL efficiency by `40%` through dynamic resource allocation and data compression; designed offline data warehouse `ODS/DWD/DWS/ADS` four-layer architecture, built user profiling tag system, processed `10M+` daily user behavior data, supporting `50+` agricultural e-commerce operation reports; built agricultural product traceability query service on `HBase`, achieved logistics track monitoring and anomaly alerting via `Kafka` + `Flink` real-time stream processing.
 - **Medical Waste Traceability Management Platform**
   - Built a full-process medical waste traceability management system based on `Spring Boot` + `MyBatis` + `PostgreSQL`, with `Vue 2.x` + `Element UI` frontend, supporting full lifecycle traceability from collection to disposal.
 
