@@ -115,6 +115,10 @@
 
 ### 公开内容
 
+- [sessionvault](https://github.com/bigdataliuchuang/sessionvault)  
+  🔐 统一管理 Claude Code / Codex / Cursor / Antigravity 的对话历史，支持全文搜索、MCP 集成、Web UI 和 TUI。
+  Unified conversation manager for AI coding tools with full-text search, MCP integration, Web UI and TUI.
+
 - [sql_learn_bigdata](https://github.com/bigdataliuchuang/sql_learn_bigdata)  
   SQL 与大数据基础练习仓库，持续整理中。
 - [掘金专栏 / Juejin Posts](https://juejin.cn/user/3195520361284094)  
@@ -186,6 +190,9 @@
   - Participated in early analysis and overall architecture design, responsible for offline processing, database modeling, dependency design, and field standards; used `Kafka`, `Hive`, `Impala`, `PySpark`, `HDFS`, `Kudu`, `MongoDB`, and `MySQL` to support user profiling and marketing segmentation.
 
 ### Public Repositories
+
+- [sessionvault](https://github.com/bigdataliuchuang/sessionvault)  
+  🔐 Unified conversation manager for AI coding tools (Claude Code, Codex, Cursor, Antigravity) with full-text search, MCP integration, Web UI and TUI.
 
 - [sql_learn_bigdata](https://github.com/bigdataliuchuang/sql_learn_bigdata)  
   A repository for SQL and big-data fundamentals, with ongoing practice content.
